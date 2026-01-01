@@ -5,23 +5,12 @@ __pycache__/
 *.so
 .Python
 venv/
-env/
 .venv/
 ENV/
-env.bak/
-venv.bak/
 
-# Node.js (for frontend)
+# Node.js (if any)
 node_modules/
-.next/
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Model files (if large)
-*.pth
-*.h5
-*.keras
 
 # IDE
 .vscode/
@@ -33,6 +22,15 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Render
+# Render/Lambda deployment
 *.zip
 deployment_package.zip
+lambda_deployment.zip
+
+# Temporary files
+*.tmp
+*.temp
+
+# Model files (large)
+*.pth
+*.h5s
